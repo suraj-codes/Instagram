@@ -91,7 +91,6 @@ const Login = ({ signup }) => {
   const email = useInput("");
   const password = useInput("");
   const responseFacebook = async(res) => {
-    console.log(res);
     const body = { email: res.email, type:"Facebook"}
     try {
       const { token } = await client("/auth/login", { body });

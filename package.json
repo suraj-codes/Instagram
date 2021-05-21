@@ -1,7 +1,7 @@
 {
-  "name": "instaclone-backend",
+  "name": "instagram-backend",
   "version": "1.0.0",
-  "description": "Instaclone backend using Express, MongoDB",
+  "description": "Instagram backend using Express, MongoDB",
   "main": "src/server.js",
   "scripts": {
     "build": "cd client && npm run build",
@@ -10,7 +10,7 @@
     "start": "node src/server",
     "dev": "nodemon src/server"
   },
-  "author": "Manikandan Raji",
+  "author": "Suraj Deshmane",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",
